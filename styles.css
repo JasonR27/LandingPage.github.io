@@ -32,12 +32,14 @@ header {
 #header-img {
   width: 35vw;
   height: 60px;
+  border: solid 6px gray;
 }
 
 #nav-bar {
   display: flex;
   text-align: center;
   width: 100%;
+  background-color: rgba(100, 100, 168, 0.0);
 }
 
 #nav-bar li {
