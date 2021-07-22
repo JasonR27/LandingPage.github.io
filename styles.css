@@ -14,8 +14,8 @@ a {
 /*Global Classes*/
 
 body {
-  background-color: #eee;
-  border: 3px solid #eee;
+  background-color: gray;
+  border: 3px solid gray;
 }
 
 header {
@@ -51,15 +51,29 @@ header {
   width: 100%;
 }
 
-/* header flex alocation testing  
-#thirddiv {
-  width: 500px;
-  border: 3px solid red;
-} */
+#HowItWorks,
+#price {
+  padding-top: 9rem;
+}
+
+#features {
+  padding-top: 5.5rem;
+}
 
 #titleform {
   margin-top: 100px;
-  margin-bottom: 50px;
+  padding: 50px;
+  border: solid 30px black;
+  background: radial-gradient(
+    circle,
+    black 25px,
+    white 50px,
+    black 100px,
+    white 100px,
+    black 200px,
+    white 200px,
+    black 400px
+  );
 }
 
 h1 {
@@ -68,6 +82,8 @@ h1 {
   font-size: 25px;
   padding: 15px;
   padding-top: 45px;
+  color: orange;
+  font-weigth: 1200;
 }
 
 form {
@@ -95,7 +111,6 @@ input[type="submit"] {
 #features {
   display: grid;
   justify-content: center;
-  padding-top: 0vh;
 }
 
 #featdesc {
