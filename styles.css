@@ -65,7 +65,8 @@ header {
 }
 
 #titleform {
-  margin-top: 100px;
+  margin-top: 50px;
+  height: 30rem;
   padding: 50px;
   border: solid 30px black;
   background: radial-gradient(
