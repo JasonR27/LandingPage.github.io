@@ -65,6 +65,7 @@ header {
 }
 
 #titleform {
+  width: inherit;
   height: 30rem;
   padding: 50px;
   border: solid 30px black;
