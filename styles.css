@@ -65,9 +65,8 @@ header {
 }
 
 #titleform {
-  width: inherit;
-  height: 30rem;
-  padding: 50px;
+  width: 110%;
+  height: 30rem;  
   border: solid 30px black;
   background: radial-gradient(
     circle,
@@ -87,7 +86,7 @@ h1 {
   font-size: 25px;
   padding: 15px;
   padding-top: 45px;
-  color: rgba(241, 220, 24, 0.959);
+  color: silver;
   font-weight: 1200;
 }
 
@@ -108,7 +107,7 @@ form {
 input[type="submit"] {
   width: 20vw;
   left: 20px;
-  background-color: rgba(241, 220, 24, 0.959);
+  background-color: silver;
   justify-self: center;
   height: 25px;
 }
